@@ -20,7 +20,7 @@
 
 ```Install: ```
 ```sh:run.sh
-composer install
+sh$ composer install
 ```
 
 ## PHP Code Example
