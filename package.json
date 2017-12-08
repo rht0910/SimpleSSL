@@ -1,0 +1,25 @@
+{
+    "name": "rht0910/ssl",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rht0910",
+            "email": "rht0910@outlook.jp"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "psy/psysh": "@stable"
+    },
+    "autoload": {
+	"psr-4": {
+	    "rht0910\\ssl\\": "src/rht0910/ssl/"
+	}
+    }
+}
